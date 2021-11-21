@@ -1,0 +1,161 @@
+body, ul, li, p {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+}
+
+.header {
+    background-color: rgb(26, 25, 25);
+    box-shadow: 5px 5px 9px 5px #181818;
+  
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo .titulos {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -15px;
+}
+
+.principal {
+    background-image: url(imagens/capita-marvel.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.revistas {
+    background-image: url(imagens/hqs-marvel.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.livros {
+    background-image: url(imagens/livros.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.estatuetas {
+    background-image: url(imagens/estatuetas.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.localização {
+    background-image: url(imagens/localização.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contatos {
+    background-image: url(imagens/contatos.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sobre {
+    background-image: url(imagens/sobre.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.produto1 {
+    background-image: url(imagens/backgroundproduto.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+a { 
+    text-decoration: none;
+}
+
+.form {
+    display: flex;
+    justify-content:space-evenly;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 0px;
+}
+
+.form input {
+    width: 65%;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.form button {
+    background-color: rgb(241, 227, 28);
+    padding: 5px 10px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;  
+    border-radius: 0px 5px 5px 0px;
+    margin-left: -5px;
+
+}
+
+.titulos {
+    color: rgb(241, 241, 28);
+    justify-content: center;
+    text-shadow: 0.1em 0.1em #333
+}
+
+.subtitulos {
+    color: rgb(241, 241, 28);
+    justify-content: center;
+    text-shadow: 0.1em 0.1em #333
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.menu button {
+    cursor: pointer;  
+    border-radius: 0px 5px 5px 0px;
+    margin-top: -2px;
+    margin-left: 5px;
+    background-color: rgb(241, 227, 28);
+    color: black;
+    width: 15%;
+}
+
+.inicio button {
+    cursor: pointer;  
+    border-radius: 5px 5px 5px 5px;
+    margin-top: -2px;
+    margin-left: 0px;
+    background-color: rgb(241, 227, 28);
+    color: black;
+    width: 10%;
+}
+
+.produtos {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+    margin-left: 1%;
+}
+
+.textosobre {
+    color: #000;
+}
+
+.textosobre {
+    text-align: justify;
+    justify-content: left;
+    border-radius: 5px 5px 5px 5px;
+    background-color: rgb(241, 227, 31);
+    color: rgb(0, 0, 0);
+    margin-right: 75%;
+    margin-left: 2px;
+}
+
