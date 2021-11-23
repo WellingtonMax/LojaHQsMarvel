@@ -3,7 +3,7 @@ body, ul, li, p {
     padding: 0px;
     list-style: none;
     font-size: 1.2rem;
-    font-family: sans-serif;
+    font-family:'Courier New', Courier, monospace;
 }
 
 .header {
@@ -24,48 +24,63 @@ body, ul, li, p {
 }
 
 .principal {
+    margin-top: -2px;
     background-image: url(imagens/capita-marvel.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .revistas {
-    background-image: url(imagens/hqs-marvel.png);
+    margin-top: -2px;
+    background-image: url(imagens/MC.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .livros {
+    margin-top: -2px;
     background-image: url(imagens/livros.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .estatuetas {
+    margin-top: -2px;
     background-image: url(imagens/estatuetas.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .localização {
+    margin-top: -2px;
     background-image: url(imagens/localização.PNG);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .contatos {
+    margin-top: -2px;
     background-image: url(imagens/contatos.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .sobre {
-    background-image: url(imagens/sobre.png);
+    margin-top: -2px;
+    background-image: url(imagens/deadp.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
+#imgpos3 {
+    background: url(imagens/sombra.png), no-repeat;
+    position: absolute; 
+    left: 128px;  
+    top: 292px; 
+    }
+
 .produto1 {
+    margin-top: -2px;
     background-image: url(imagens/backgroundproduto.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -80,12 +95,11 @@ a {
     justify-content:space-evenly;
     width: 100%;
     margin: 0 auto;
-    margin-top: 0px;
 }
 
 .form input {
-    width: 65%;
-    padding: 5px 10px;
+    width: 60%;
+    padding: 5px 18px;
     border: none;
     border-radius: 5px 0px 0px 5px;
 }
@@ -97,30 +111,29 @@ a {
     border: none;
     cursor: pointer;  
     border-radius: 0px 5px 5px 0px;
-    margin-left: -5px;
+    margin-left: -12px;
 
 }
 
 .titulos {
+    margin-top: -2px;
     color: rgb(241, 241, 28);
     justify-content: center;
     text-shadow: 0.1em 0.1em #333
 }
 
-.subtitulos {
-    color: rgb(241, 241, 28);
-    justify-content: center;
-    text-shadow: 0.1em 0.1em #333
-}
 .menu {
+    margin-top: -2px;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
-    padding: 10px;
+    justify-content: space-around;
+    padding: 8px;
+    margin-left: -12px;
 }
 
 .menu button {
     cursor: pointer;  
-    border-radius: 0px 5px 5px 0px;
+    border-radius: 5px 5px 5px 5px;
     margin-top: -2px;
     margin-left: 5px;
     background-color: rgb(241, 227, 28);
@@ -138,11 +151,137 @@ a {
     width: 10%;
 }
 
+.destaques {
+    display: flex;
+    justify-content: center;
+    border-radius: 5px 5px 5px 5px;
+    margin-top: 0%;
+    color: black;
+}
+
+.marvelcomics {
+    display: flex;
+    justify-content: space-around;
+	
+}
+
+.marvelcomics2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+#imgmc1 {
+    border: rgb(0, 0, 0) solid 4px;
+    box-shadow:rgb(26, 25, 25);
+
+}
+
+#imgmc2 {
+    border: rgb(0, 0, 0) solid 4px;
+    box-shadow:rgb(26, 25, 25);
+
+}
+
+#imgmc3 {
+    border: rgb(0, 0, 0) solid 4px;
+    box-shadow:rgb(26, 25, 25);
+
+}
+
+#imgmc4 {
+    border: rgb(0, 0, 0) solid 4px;
+    box-shadow:rgb(26, 25, 25);
+}
+
+#imgmc5 {
+    border: rgb(0, 0, 0) solid 4px;
+    box-shadow:rgb(26, 25, 25);
+}
+
+#imgmc6 {
+    border: rgb(0, 0, 0) solid 4px;
+    box-shadow:rgb(26, 25, 25);
+}
+
+#imgmc7 {
+    border: rgb(0, 0, 0) solid 4px;
+    box-shadow:rgb(26, 25, 25);
+}
+
+#imgmc8 {
+    border: rgb(0, 0, 0) solid 4px;
+    box-shadow:rgb(26, 25, 25);
+}
+
 .produtos {
+    margin-top: -2px;
     display: flex;
     justify-content: space-around;
     margin-top: 10%;
     margin-left: 1%;
+}
+
+.comprar button{
+    margin-top: -2px;
+    background-color: rgb(241, 227, 28);
+    cursor: pointer;
+    border-radius: 5px 5px 5px 5px;
+    margin-left: 29px;
+    width: 150px;
+}
+
+.comprar {
+    margin-top: -2px;
+    display: flex;
+    justify-content: space-around;
+    width: 99%;
+}
+
+#imgpos2 {
+    background: url(imagens/sombra.png), no-repeat;
+    position: absolute; 
+    left: 165px;  
+    top: 186px; 
+    }
+    
+#imgpos {
+    background: url(imagens/produto1.png), no-repeat;
+    border: rgb(0, 0, 0) solid 2px;
+    box-shadow:rgb(26, 25, 25);
+	position: absolute; 
+	left: 160px;  
+	top: 180px; 
+	}
+
+.contato {
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 5px 5px 0px 0px;
+    background-color: rgb(245, 241, 4);
+    color: rgb(2, 2, 2);
+    margin-right: 60%;
+    margin-left: 25%;
+    margin-top: 0%;
+}
+
+.contateme {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0px 0px 5px 5px;
+    background-color: rgb(245, 241, 4);
+    color: rgb(2, 2, 2);
+    margin-right: 60%;
+    margin-left: 25%;
+}
+
+.textolocalidade {
+    text-align: justify;
+    justify-content: left;
+    border-radius: 5px 5px 5px 5px;
+    background-color: rgb(241, 227, 31);
+    color: rgb(0, 0, 0);
+    margin-right: 28%;
+    margin-left: 30%;
 }
 
 .textosobre {
@@ -155,7 +294,7 @@ a {
     border-radius: 5px 5px 5px 5px;
     background-color: rgb(241, 227, 31);
     color: rgb(0, 0, 0);
-    margin-right: 75%;
-    margin-left: 2px;
+    margin-right: 30%;
+    margin-left: 30%;
 }
 
