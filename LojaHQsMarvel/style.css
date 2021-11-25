@@ -4,17 +4,33 @@ body, ul, li, p {
     list-style: none;
     font-size: 1.2rem;
     font-family:'Courier New', Courier, monospace;
+    background-size: cover;
+    background-position: center center;
+    
+}
+
+html, body, #image, #gradient {
+    height: 100%;
+    width: 100%;
+
 }
 
 .header {
+    display: flex;
+    min-width: 110vw;
+    justify-content: center;
     background-color: rgb(26, 25, 25);
     box-shadow: 5px 5px 9px 5px #181818;
-  
+}
+
+a { 
+    text-decoration: none;
 }
 
 .logo {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .logo .titulos {
@@ -23,71 +39,11 @@ body, ul, li, p {
     margin-bottom: -15px;
 }
 
-.principal {
+.titulos {
     margin-top: -2px;
-    background-image: url(imagens/capita-marvel.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.revistas {
-    margin-top: -2px;
-    background-image: url(imagens/MC.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.livros {
-    margin-top: -2px;
-    background-image: url(imagens/livros.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.estatuetas {
-    margin-top: -2px;
-    background-image: url(imagens/estatuetas.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.localização {
-    margin-top: -2px;
-    background-image: url(imagens/localização.PNG);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.contatos {
-    margin-top: -2px;
-    background-image: url(imagens/contatos.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.sobre {
-    margin-top: -2px;
-    background-image: url(imagens/deadp.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-#imgpos3 {
-    background: url(imagens/sombra.png), no-repeat;
-    position: absolute; 
-    left: 128px;  
-    top: 292px; 
-    }
-
-.produto1 {
-    margin-top: -2px;
-    background-image: url(imagens/backgroundproduto.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-a { 
-    text-decoration: none;
+    color: rgb(241, 241, 28);
+    justify-content: center;
+    text-shadow: 0.1em 0.1em #333
 }
 
 .form {
@@ -114,17 +70,11 @@ a {
     margin-left: -12px;
 
 }
-
-.titulos {
-    margin-top: -2px;
-    color: rgb(241, 241, 28);
-    justify-content: center;
-    text-shadow: 0.1em 0.1em #333
-}
+/* Acima se encontram os atributos do cabeçalho */
 
 .menu {
     margin-top: -2px;
-    width: 100%;
+    min-width: 100vw;
     display: flex;
     justify-content: space-around;
     padding: 8px;
@@ -159,58 +109,12 @@ a {
     color: black;
 }
 
-.marvelcomics {
-    display: flex;
-    justify-content: space-around;
-	
-}
-
-.marvelcomics2 {
-    display: flex;
-    justify-content: space-around;
-}
-
-#imgmc1 {
-    border: rgb(0, 0, 0) solid 4px;
-    box-shadow:rgb(26, 25, 25);
-
-}
-
-#imgmc2 {
-    border: rgb(0, 0, 0) solid 4px;
-    box-shadow:rgb(26, 25, 25);
-
-}
-
-#imgmc3 {
-    border: rgb(0, 0, 0) solid 4px;
-    box-shadow:rgb(26, 25, 25);
-
-}
-
-#imgmc4 {
-    border: rgb(0, 0, 0) solid 4px;
-    box-shadow:rgb(26, 25, 25);
-}
-
-#imgmc5 {
-    border: rgb(0, 0, 0) solid 4px;
-    box-shadow:rgb(26, 25, 25);
-}
-
-#imgmc6 {
-    border: rgb(0, 0, 0) solid 4px;
-    box-shadow:rgb(26, 25, 25);
-}
-
-#imgmc7 {
-    border: rgb(0, 0, 0) solid 4px;
-    box-shadow:rgb(26, 25, 25);
-}
-
-#imgmc8 {
-    border: rgb(0, 0, 0) solid 4px;
-    box-shadow:rgb(26, 25, 25);
+/* Aqui começa a página principal */
+.principal {
+    margin-top: -2px;
+    background-image: url(imagens/capita-marvel.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .produtos {
@@ -219,6 +123,7 @@ a {
     justify-content: space-around;
     margin-top: 10%;
     margin-left: 1%;
+    flex-wrap: wrap;
 }
 
 .comprar button{
@@ -237,21 +142,81 @@ a {
     width: 99%;
 }
 
-#imgpos2 {
-    background: url(imagens/sombra.png), no-repeat;
-    position: absolute; 
-    left: 165px;  
-    top: 186px; 
-    }
-    
-#imgpos {
-    background: url(imagens/produto1.png), no-repeat;
-    border: rgb(0, 0, 0) solid 2px;
+/* Aqui começa a página Marvel Comics */
+
+.revistas {
+    margin-top: -2px;
+    background-image: url(imagens/MC.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.marvelcomics {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;	
+}
+
+.marvelcomics2 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#imgmc1 {
+    border: rgb(0, 0, 0) solid 3px;
     box-shadow:rgb(26, 25, 25);
-	position: absolute; 
-	left: 160px;  
-	top: 180px; 
-	}
+    flex-wrap: wrap;
+
+}
+
+/* Aqui começa a página livros */
+
+.livros {
+    margin-top: -2px;
+    background-image: url(imagens/livros.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+}
+
+/* Aqui começa a página estatuetas */
+
+.estatuetas {
+    margin-top: -2px;
+    background-image: url(imagens/estatuetas.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Aqui começa a página localização */
+
+
+.localização {
+    margin-top: -2px;
+    background-image: url(imagens/localização.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.textolocalidade {
+    text-align: justify;
+    justify-content: left;
+    border-radius: 5px 5px 5px 5px;
+    background-color: rgb(241, 227, 31);
+    color: rgb(0, 0, 0);
+    margin-right: 28%;
+    margin-left: 30%;
+}
+
+/* Aqui começa a página contatos */
+
+.contatos {
+    margin-top: -2px;
+    background-image: url(imagens/contatos.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 .contato {
     display: flex;
@@ -274,14 +239,13 @@ a {
     margin-left: 25%;
 }
 
-.textolocalidade {
-    text-align: justify;
-    justify-content: left;
-    border-radius: 5px 5px 5px 5px;
-    background-color: rgb(241, 227, 31);
-    color: rgb(0, 0, 0);
-    margin-right: 28%;
-    margin-left: 30%;
+/* Aqui começa a página sobre */
+
+.sobre {
+    margin-top: -2px;
+    background-image: url(imagens/deadp.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .textosobre {
@@ -298,3 +262,53 @@ a {
     margin-left: 30%;
 }
 
+.comprafinal {
+    margin-top: -2px;
+    background-image: url(imagens/backgroundproduto.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#imgpos2 {
+    background: url(imagens/sombra.png), no-repeat;
+    position: absolute; 
+    left: 165px;  
+    top: 186px; 
+    }
+    
+#imgpos {
+    background: url(imagens/produto1.png), no-repeat;
+    border: rgb(0, 0, 0) solid 2px;
+    box-shadow:rgb(26, 25, 25);
+	position: absolute; 
+	left: 160px;  
+	top: 180px; 
+	}
+
+
+@media only screen and (max-width: 480px) {
+
+    .form {
+        width: 100%;
+    }
+
+    .menu {
+        flex-wrap: wrap;        
+    }
+
+    .header .titulos h1 {
+        font-size: 30px;
+    }
+
+    .textolocalidade {
+        max-width: 80%;
+        text-align:center;
+    }
+
+    .textosobre {
+        max-width: 80%;
+        text-align: justify;
+    }
+
+
+}
