@@ -6,7 +6,7 @@ responsivas em outras telas.
 
 
 <h4 align="center"> 
-	🚧  React Select 🚀 Em construção...  🚧
+	🚧  🚀 Em construção...  🚧
 </h4>
 
 ⚙️ Features
