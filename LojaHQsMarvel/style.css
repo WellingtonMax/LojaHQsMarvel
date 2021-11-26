@@ -288,12 +288,96 @@ a {
 
 @media only screen and (max-width: 480px) {
 
+    .principal {
+        margin-top: -2px;
+        background: url(imagens/capita-marvel.png) no-repeat center center fixed;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        resize: both;
+        overflow: scroll;
+    }
+
+    .revistas {
+        margin-top: -2px;
+        background: url(imagens/MC.png) no-repeat center center fixed;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        resize: both;
+        overflow: scroll;
+    }
+
+    .livros {
+        margin-top: -2px;
+        background: url(imagens/livros.png) no-repeat center center fixed;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        resize: both;
+        overflow: scroll;
+    }
+
+    .estatuetas {
+        margin-top: -2px;
+        background: url(imagens/estatuetas.png) no-repeat center center fixed;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        resize: both;
+        overflow: scroll;
+    }
+
+    .localização {
+        margin-top: -2px;
+        background: url(imagens/localização.PNG) no-repeat center center fixed;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        resize: both;
+        overflow: scroll;
+    }
+
+    .contatos {
+        margin-top: -2px;
+        background: url(imagens/contatos.png) no-repeat center center fixed;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        resize: both;
+        overflow: scroll;
+    }
+
+    .sobre {
+        margin-top: -2px;
+        background: url(imagens/deadp.png) no-repeat center center fixed;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        resize: both;
+        overflow: scroll;
+    }
+
+    .comprafinal {
+        margin-top: -2px;
+        background: url(imagens/hulk.png) no-repeat center center fixed;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        resize: both;
+        overflow: scroll;
+    }
+
     .form {
         width: 100%;
     }
 
     .menu {
-        flex-wrap: wrap;        
+        flex-wrap: wrap;     
+    }
+
+    .menu button {
+        width: 80%;
     }
 
     .header .titulos h1 {
@@ -303,6 +387,16 @@ a {
     .textolocalidade {
         max-width: 80%;
         text-align:center;
+    }
+
+    .contato {
+        text-align: center;
+        width: 50%;
+    }
+
+    .contateme {
+        width: 50%;
+        justify-content: center;
     }
 
     .textosobre {
